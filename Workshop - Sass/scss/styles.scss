@@ -1,0 +1,207 @@
+@import "reset";
+@import url("http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import "_variables";
+@import "_flexbox";
+@import "_auxClass";
+
+body{
+	margin: auto;
+	padding: 0.3em;
+}
+section{
+	padding: 1.5em 0;
+	border-top: 1px solid $gris;
+	border-bottom: 1px solid $gris;
+}
+
+header{
+	padding: 1em 0;
+}
+
+footer{
+	background:black;
+	padding:3em;
+	h2{
+		font-size: 30px;
+		color:white;
+	}
+}
+
+a{
+	text-decoration:none;
+	color:black;
+}
+
+.logo{
+	margin:auto;
+	img{
+		width:100px;
+	}
+}
+
+.subtitle{
+	text-align: center;
+	margin: 1em 0;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+#head{
+	.span{
+		font-size: 0.7em;
+	}
+}
+
+#nav-mobile{
+	ul{
+		padding:0.5em 0;
+		width: 150px;
+		margin: auto;
+		span{
+			font-size: 2em;
+		}
+	}
+}
+
+#nav-desktop{
+	ul{
+		width:400px;
+		margin: auto;
+	}
+}
+
+#main{
+}
+
+#sidebar{
+	h2{
+		margin:1em 0;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+	}
+	h3{
+		font-weight: bold; 
+		&:after{
+			content: " >";
+		}
+	}
+	ul{
+		li{
+			margin: 1em;
+		}
+	}
+}
+
+#slide{
+	img{
+		width:100%;
+		height: auto;
+	}
+	article{
+		text-align: center;
+	}
+	h4, h5{
+		text-transform: uppercase;
+		font-size: 0.8em;
+		margin:1em auto;
+	}
+	h3{
+		font-weight: bolder;
+		font-size: 1.2em;
+	}
+}
+
+#catalogs{
+	div{
+		width:100%;
+		margin-bottom: 1em;
+	}
+	img{
+		width:100%;
+	}
+}
+
+#products{
+	.articles{
+		margin: 2em 0;
+	}
+	article{
+		margin-bottom: 0.5em;
+		h3,h4,h5{
+			text-align: center;
+			margin: 1em;
+		}
+		h3{
+			font-weight: bold;
+		}
+		h5{
+			&:before{
+				content: "$";
+			}
+			&:after{
+				content: " CAD";
+			}
+		}
+		h6{
+			font-size: 1.1em;
+			font-weight: bold;
+			text-align: center;
+			margin: 1em 0;
+		}
+		img{
+			width:100%;
+		}
+	}
+	.detail{
+		img{
+			margin: 2em 0;
+		}
+	}
+	.offer{
+		img{
+			width: 100%;
+		}
+	}
+}
+
+#news{
+	.news{
+		margin: 1em 0;
+	}
+	article{
+		margin: 1em 0;
+		h3{
+			text-align: center;
+			font-weight: bold;
+		}
+		img{
+			width: 100%;
+			margin: 1em 0;
+		}
+		a{
+			text-transform: uppercase;
+			font-size: 0.7em;
+			display: inline-block;
+			margin: 1em 0;
+		}
+	}
+}
+
+#collections{
+	.row{
+		margin: 1em 0;
+	}
+	img{
+		width: 100%;
+		height: auto;
+	}
+}
+.no-mobile{
+	display:none;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+@import "_responsive";

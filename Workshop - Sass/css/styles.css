@@ -1,0 +1,281 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.flex {
+  display: flex; }
+
+.column {
+  flex-direction: column; }
+
+.wrap {
+  flex-wrap: wrap; }
+
+.jc-start {
+  justify-content: flex-start; }
+
+.jc-end {
+  justify-content: flex-end; }
+
+.jc-center {
+  justify-content: center; }
+
+.jc-between {
+  justify-content: space-between; }
+
+.jc-around {
+  justify-content: space-around; }
+
+.ai-start {
+  align-items: flex-start; }
+
+.ai-end {
+  align-items: flex-end; }
+
+.ai-center {
+  align-items: center; }
+
+.ai-stretch {
+  align-items: stretch; }
+
+.ai-baseline {
+  align-items: baseline; }
+
+.border {
+  border: 1px solid black; }
+
+.color1 {
+  background: #E9EBEE; }
+
+.color2 {
+  background: yellow; }
+
+.color3 {
+  background: green; }
+
+body {
+  margin: auto;
+  padding: 0.3em; }
+
+section {
+  padding: 1.5em 0;
+  border-top: 1px solid #E9EBEE;
+  border-bottom: 1px solid #E9EBEE; }
+
+header {
+  padding: 1em 0; }
+
+footer {
+  background: black;
+  padding: 3em; }
+  footer h2 {
+    font-size: 30px;
+    color: white; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+.logo {
+  margin: auto; }
+  .logo img {
+    width: 100px; }
+
+.subtitle {
+  text-align: center;
+  margin: 1em 0;
+  text-transform: uppercase;
+  letter-spacing: 0.2em; }
+
+#head .span {
+  font-size: 0.7em; }
+
+#nav-mobile ul {
+  padding: 0.5em 0;
+  width: 150px;
+  margin: auto; }
+  #nav-mobile ul span {
+    font-size: 2em; }
+
+#nav-desktop ul {
+  width: 400px;
+  margin: auto; }
+
+#sidebar h2 {
+  margin: 1em 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1em; }
+#sidebar h3 {
+  font-weight: bold; }
+  #sidebar h3:after {
+    content: " >"; }
+#sidebar ul li {
+  margin: 1em; }
+
+#slide img {
+  width: 100%;
+  height: auto; }
+#slide article {
+  text-align: center; }
+#slide h4, #slide h5 {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  margin: 1em auto; }
+#slide h3 {
+  font-weight: bolder;
+  font-size: 1.2em; }
+
+#catalogs div {
+  width: 100%;
+  margin-bottom: 1em; }
+#catalogs img {
+  width: 100%; }
+
+#products .articles {
+  margin: 2em 0; }
+#products article {
+  margin-bottom: 0.5em; }
+  #products article h3, #products article h4, #products article h5 {
+    text-align: center;
+    margin: 1em; }
+  #products article h3 {
+    font-weight: bold; }
+  #products article h5:before {
+    content: "$"; }
+  #products article h5:after {
+    content: " CAD"; }
+  #products article h6 {
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    margin: 1em 0; }
+  #products article img {
+    width: 100%; }
+#products .detail img {
+  margin: 2em 0; }
+#products .offer img {
+  width: 100%; }
+
+#news .news {
+  margin: 1em 0; }
+#news article {
+  margin: 1em 0; }
+  #news article h3 {
+    text-align: center;
+    font-weight: bold; }
+  #news article img {
+    width: 100%;
+    margin: 1em 0; }
+  #news article a {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    display: inline-block;
+    margin: 1em 0; }
+
+#collections .row {
+  margin: 1em 0; }
+#collections img {
+  width: 100%;
+  height: auto; }
+
+.no-mobile {
+  display: none; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+@media (min-width: 768px) {
+  body {
+    max-width: 1000px;
+    font-family: sans-serif;
+    font-size: 16px; }
+
+  #nav-desktop ul {
+    padding: 1em 0; }
+
+  #sidebar {
+    flex: 1; }
+
+  #main {
+    flex: 4; }
+
+  #catalogs {
+    flex-direction: row;
+    justify-content: space-between; }
+    #catalogs div {
+      width: 48%; }
+    #catalogs img {
+      width: 100%; }
+
+  #products .articles {
+    display: flex; }
+  #products .detail {
+    display: flex; }
+    #products .detail div {
+      flex: 1; }
+
+  #news .news {
+    display: flex;
+    justify-content: space-between; }
+  #news article {
+    width: 31%; }
+
+  #collections .row {
+    flex-direction: row;
+    justify-content: space-between; }
+    #collections .row div {
+      width: 31%; }
+
+  .no-mobile {
+    display: inline-block; }
+
+  .mobile {
+    display: none; } }
+
+/*# sourceMappingURL=styles.css.map */

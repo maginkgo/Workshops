@@ -1,0 +1,51 @@
+// Clases FlexBox
+.flex{
+	display:flex;
+}
+.column{
+	flex-direction: column;
+}
+
+.wrap{
+	flex-wrap:wrap;
+}
+
+.jc-start{
+	justify-content: flex-start;
+}
+
+.jc-end{
+	justify-content: flex-end;
+}
+
+.jc-center{
+	justify-content: center;
+}
+
+.jc-between{
+	justify-content: space-between;
+}
+
+.jc-around{
+	justify-content: space-around;
+}
+
+.ai-start{
+	align-items: flex-start;
+}
+
+.ai-end{
+	align-items: flex-end;
+}
+
+.ai-center{
+	align-items: center;
+}
+
+.ai-stretch{
+	align-items: stretch;
+}
+
+.ai-baseline{
+	align-items: baseline;
+}

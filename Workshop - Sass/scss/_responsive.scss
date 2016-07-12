@@ -1,0 +1,78 @@
+//Responsive
+@media (min-width: 768px) {
+
+	body{
+		max-width: 1000px;
+		font-family: sans-serif;
+		font-size: 16px;
+	}
+
+	#nav-desktop{
+		ul{
+			padding: 1em 0;
+		}
+	}
+	#sidebar{
+		flex:1;
+	}
+	#main{
+		flex:4;
+	}
+	#slider{
+
+	}
+	#catalogs{
+		flex-direction: row;
+		justify-content: space-between;
+		div{
+			width:48%;
+		}
+		img{
+			width:100%;
+		}
+	}
+
+	#products{
+		.articles{
+			display: flex;
+		}
+		.detail{
+			display: flex;
+			div{
+				flex:1;
+			}
+		}
+	}
+
+	#news{
+		.news{
+			display: flex;
+			justify-content: space-between;
+		}
+		article{
+			width: 31%;
+			img{
+			}
+		}
+	}
+
+	#collections{
+		.row{
+			flex-direction: row;
+			justify-content: space-between;
+			div{
+				width: 31%;
+				img{
+				}
+			}
+
+		}
+	}
+	.no-mobile{
+		display: inline-block;
+	}
+	.mobile{
+		display: none;
+	}
+
+}
