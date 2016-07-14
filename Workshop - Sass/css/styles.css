@@ -99,6 +99,9 @@ table {
 .color3 {
   background: green; }
 
+body, section, footer {
+  font-family: sans-serif; }
+
 body {
   margin: auto;
   padding: 0.3em; }
@@ -110,13 +113,6 @@ section {
 
 header {
   padding: 1em 0; }
-
-footer {
-  background: black;
-  padding: 3em; }
-  footer h2 {
-    font-size: 30px;
-    color: white; }
 
 a {
   text-decoration: none;
@@ -224,6 +220,20 @@ a {
   width: 100%;
   height: auto; }
 
+footer {
+  flex-direction: column;
+  justify-content: center; }
+  footer h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block; }
+  footer nav, footer article, footer div {
+    text-align: center; }
+  footer nav, footer ul, footer li, footer article, footer div, footer form {
+    margin: 0.8em auto; }
+  footer #newsletter div h3 {
+    margin-top: 1em; }
+
 .no-mobile {
   display: none; }
 
@@ -271,6 +281,14 @@ a {
     justify-content: space-between; }
     #collections .row div {
       width: 31%; }
+
+  footer {
+    padding: 1em 0;
+    flex-direction: row; }
+    footer nav, footer article, footer #newsletter {
+      flex: 1; }
+    footer #twitter {
+      flex: 2; }
 
   .no-mobile {
     display: inline-block; }

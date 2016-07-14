@@ -68,6 +68,18 @@
 
 		}
 	}
+	
+	footer{
+		padding:1em 0;
+		flex-direction: row;
+		nav, article, #newsletter{
+			flex:1;
+		}
+		#twitter{
+			flex:2;
+		}
+	}
+
 	.no-mobile{
 		display: inline-block;
 	}

@@ -6,6 +6,10 @@
 @import "_flexbox";
 @import "_auxClass";
 
+body,section,footer{
+	font-family: sans-serif;
+}
+
 body{
 	margin: auto;
 	padding: 0.3em;
@@ -18,15 +22,6 @@ section{
 
 header{
 	padding: 1em 0;
-}
-
-footer{
-	background:black;
-	padding:3em;
-	h2{
-		font-size: 30px;
-		color:white;
-	}
 }
 
 a{
@@ -198,6 +193,31 @@ a{
 		height: auto;
 	}
 }
+
+footer{
+	flex-direction:column;
+	justify-content: center;
+	h3{
+		text-transform: uppercase;
+		font-weight: bold;
+		display: inline-block;
+	}
+	nav, article, div{
+		text-align: center;
+	}
+
+	nav, ul, li, article, div, form{
+		margin: 0.8em auto;
+	}
+	#newsletter{
+		div{
+			h3{
+				margin-top:1em;
+			}
+		}
+	}
+}
+
 .no-mobile{
 	display:none;
 }
