@@ -1,0 +1,178 @@
+.container{
+	max-width: 1000px;
+	margin:auto;
+}
+
+#nav, footer{
+	background: #2C3E50;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+header, #about{
+	background: #18BC9C;
+}
+
+footer .copyright{
+	background: #233140;
+}
+
+header{
+	color: white;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+#nav{
+	overflow: auto;
+}
+
+#nav ul li{
+	display: inline-block;
+	margin: 1em;
+}
+
+header h1{
+	float:left;
+	font-size: 2em;
+	margin-top: 0.2em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+header nav{
+	float:right;
+	text-transform: uppercase;
+}
+
+header article{
+	padding: 1em;
+	text-align: center;
+}
+
+header article img{
+	width:;
+}
+
+header article h2{
+	font-size: 2.5em;
+	text-transform: uppercase;
+	margin: 0.5em 0;
+}
+
+header article h3{
+	letter-spacing: 0.1em;
+	margin-bottom: 1em;
+}
+
+#portfolio{
+	text-align: center;
+	padding: 1em;
+	margin-top: 2em;
+}
+
+#portfolio h2{
+	text-transform: uppercase;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+#portfolio ul{
+	display: flex;
+	flex-wrap:wrap;
+	max-width: 800px;
+	margin: auto;
+}
+#portfolio img{
+	width: 250px;
+}
+#portfolio li{
+	margin: 0.5em;
+}
+#about{
+	text-align: center;
+	padding: 1em;
+}
+#about h2{
+	text-transform: uppercase;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+#about article{
+	padding: 1em;
+	margin: auto;
+	text-align: left;
+	column-count:2;
+	max-width: 600px;
+}
+#contact{
+	text-align: center;
+	margin: 1em;
+}
+#contact h2{
+	text-transform: uppercase;
+	font-size: 1.8em;
+	font-weight: bold;	
+}
+#contact form{
+	max-width: 500px;
+	margin: auto;
+}
+#contact form input, textarea{
+	width: 100%;
+	margin: 0.5em auto;
+	border-radius: 5%;
+}
+
+footer{
+	color:white;
+	margin: 1em auto;
+}
+
+footer .container{
+	padding: 2em;
+	display: flex;
+	justify-content:space-around;
+}
+
+footer ul{
+	display: flex;
+}
+
+footer ul li{
+	margin:0.5em;
+}
+
+footer h4{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+footer .container div{
+	text-align: center;
+}
+
+footer .copyright{
+	text-align: center;
+	padding: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
